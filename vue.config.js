@@ -1,0 +1,14 @@
+module.exports={
+	//需要先添加这个属性
+	configureWebpack:{
+		resolve:{
+			alias:{
+        'assets':'@/assets',
+        'common':'@/common',
+        'components':'@/components',
+        'network':'@/network',
+        'views':'@/views',
+      }
+		}
+	}
+}
